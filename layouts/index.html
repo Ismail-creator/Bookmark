@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="px-4 container mx-auto flex items-center py-4 mt-4 sm:mt-12">
+            <div class="py-1"><img src="./images/logo-bookmark.svg" alt="Logo"></div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-blue-600
+             uppercase text-md">
+            <li class="cursor-pointer">Features</li>
+            <li class="cursor-pointer">Pricing</li>
+            <li class="cursor-pointer">Contact</li>
+            <button type="button" class="bg-red-600 text-white rounded-md px-7 py-3 uppercase">Login</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="tetx-2xl fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative">
+        <div class="container px-4 flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+            <!-- Content -->
+            <div class="flex flex-1 flex-col items-center lg:items-start">
+                <h2 class="text-blue-600 text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6">A Simple Bookmark Manager</h2>
+                <p class="text-slate-400 text-lg text-center lg:text-left mb-6">A clean and simple interface to organise you favourite websites Open a new bowser tab nad load instantly. Try it for free. </p>
+                <div class="flex justify-center flex-wrap gap-6">
+                    <button type="button" class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">Git it on Chrome</button>
+                    <button type="button" class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-white hover:bg-blue-600 hover:text-white">Get it on Fire Fox</button>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/hero-bg.png" alt="Hero Photo">
+            </div>
+        </div>
+
+        <!-- Rounded Rectangle -->
+        <div class="hidden md:block overflow-hidden bg-blue-600 rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg: -bottom-28"></div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-white py-20 mt-20 lg:mt-60">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-blue-600">Features</h1>
+            <p class="text-center text-slate-400 mt-4">Our aim is to makes it quick and easy for you to acces your favourite websites. Your bookmarks synced to your devices so you can access them on the go.</p>
+        </div>
+        <!-- Feature #1 -->
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container px-4 flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/illustration-features-tab-1.png" alt="Illustration Tab 1">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-blue-600">Book mark in one click</h1>
+                    <p class="text-slate-400 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Organise you bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                    <button type="button" class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">More Info</button>
+                </div>
+            </div>
+                <!-- Rounded Rectangle -->
+            <div class="hidden lg:block overflow-hidden bg-blue-600 rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-0"></div>
+        </div>
+
+        <!-- Feature #2 -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container px-4 flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/illustration-features-tab-2.png" alt="Illustration Tab 1">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-blue-600">Intelligent search</h1>
+                    <p class="text-slate-400 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Our powerful search features will help you find saved sites in no time at all. No need to trawl through all your bookmarks..</p>
+                    <button type="button" class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">More Info</button>
+                </div>
+            </div>
+                <!-- Rounded Rectangle -->
+            <div class="hidden lg:block overflow-hidden bg-blue-600 rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-0"></div>
+        </div>
+
+        <!-- Feature #3 -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container px-4 flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./images/illustration-features-tab-3.png" alt="Illustration Tab 1">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-blue-600">Share your bookmarks</h1>
+                    <p class="text-slate-400 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Easily share you bookmarks and collections with others. Create a shareable link that you can send in a click of a button.</p>
+                    <button type="button" class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">More Info</button>
+                </div>
+            </div>
+                <!-- Rounded Rectangle -->
+            <div class="hidden lg:block overflow-hidden bg-blue-600 rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-0"></div>
+        </div>
+    </section>
+
+    <!-- Download -->
+    <section class="py-20 mt-20">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-blue-600">Download the extension</h1>
+            <p class="tetx-center text-slate-400 mt-4">We've got more in the pipeline. Please do let us konw if you've got a favourite you'd like to prioritize.</p>
+        </div>
+        <!-- Cards -->
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
+            <!-- Card 1 -->
+            <div class="flex flex-col rounded-md shadow-md lg:mb-16">
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/logo-chrome.svg" alt="Chrome Logo">
+                    <h3 class="mt-5 mb-2 text-blue-600 text-lg">Add to Chrome</h3>
+                    <p class="mb-2 text-slate-400 font-light"></p>
+                </div>
+                <hr class="border-b border-slate-200">
+                <div class="flex p-6">
+                    <button type="button" class="flex-1 shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">Add & Install Extension</button>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="flex flex-col rounded-md shadow-md lg:my-8">
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/logo-firefox.svg" alt="Fire Fox Logo">
+                    <h3 class="mt-5 mb-2 text-blue-600 text-lg">Add Fire Fox</h3>
+                    <p class="mb-2 text-slate-400 font-light"></p>
+                </div>
+                <hr class="border-b border-slate-200">
+                <div class="flex p-6">
+                    <button type="button" class="flex-1 shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">Add & Install Extension</button>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="flex flex-col rounded-md shadow-md lg:mt-16">
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/logo-opera.svg" alt="Opera Logo">
+                    <h3 class="mt-5 mb-2 text-blue-600 text-lg">Add to Opera</h3>
+                    <p class="mb-2 text-slate-400 font-light"></p>
+                </div>
+                <hr class="border-b border-slate-200">
+                <div class="flex p-6">
+                    <button type="button" class="flex-1 shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">Add & Install Extension</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-slate-100 py-20">
+        <div class="container px-4">
+            <!-- Heading -->
+            <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+                <h1 class="text-3xl text-center text-blue-600">Frequently Asked Questions</h1>
+                <p class="text-center text-slate-400 mt-4">Here are some of our FAQS. If you have any other questions you'd like answered please feel free to</p>
+            </div>
+            <!-- FAQ Items -->
+            <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">What is Bookmark?</span>
+                    <img src="./images/icon-arrow.svg" alt="Arrow Down">
+                </div>
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">How can i request a new browser?</span>
+                    <img src="./images/icon-arrow.svg" alt="Arrow Down">
+                </div>
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">I s ther a mobile app?</span>
+                    <img src="./images/icon-arrow.svg" alt="Arrow Down">
+                </div>
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">What about other chromium browsers?</span>
+                    <img src="./images/icon-arrow.svg" alt="Arrow Down">
+                </div>
+                <button type="button" class="flex mt-12 self-center shadow-md py-3 px-6 rounded-md transition duration-300 bg-blue-600 text-white hover:bg-white hover:text-black">More Info</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto px-4">
+            <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+                <p class="font-light uppercase text-center mb-8">35,000+ ALREADY JOINED</p>
+                <h1 class="text-3xl text-center">Stay up-to-date with what we're doing</h1>
+                <div class="flex flex-col sm:flex-row gap-6 mt-8">
+                    <input type="text" placeholder="Enter your email address" class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black">
+                    <button type="button" class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-red-600 text-white hover:bg-white hover:text-black">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 py-8">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+                <img src="./images/logo-bookmark-white.png" alt="Logo SVG">
+                <ul class="flex text-white uppercase gap-12 text-xs">
+                    <li class="cursor-pointer">Features</li>
+                    <li class="cursor-pointer">Pricing</li>
+                    <li class="cursor-pointer">Contact Us</li>
+                </ul>
+            </div>
+            <div class="flex gap-10 mt-12 md:mt-0">
+                <li><i class="text-white text-2xl fa-brands fa-twitter"></i></li>
+                <li><i class="text-white text-2xl fa-brands fa-facebook-f"></i></li>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
